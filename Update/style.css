@@ -1,0 +1,61 @@
+.body{
+	font-family:sans-serif;
+	background:linear-gradient(to right,#1e3c72,#2a5298);
+	font-family:monospace;
+	color:white;
+}
+
+
+.btn {
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius:10px;
+  background:linear-gradient(to right,blue,red);
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #00ccff;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #3399ff;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.image{
+	height:90%;
+	width:90%;
+}
